@@ -12,7 +12,7 @@ scalaSource in Compile <<= baseDirectory(_ / "src") // default
 
 libraryDependencies += "org.scala-lang" % "scala-compiler" % "2.10.0-virtualized-SNAPSHOT"
 
-//mainClass in (Compile, run) := Some("myproject.MyMain")
+mainClass in (Compile, run) := Some("org.scala_lang.virtualized.probability.Test")
 
 
 
